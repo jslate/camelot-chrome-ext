@@ -1,0 +1,13 @@
+{
+  "name": "Camelot Chrome Extension",
+  "description": "Automatically add the Camelot Amazon referral code to Amazon URLs.",
+  "version": "1.0",
+  "manifest_version": 2,
+  "background": {"scripts":["background.js"]},
+  "permissions": [
+    "webRequest",
+    "*://amazon.com/*",
+    "*://www.amazon.com/*",
+    "webRequestBlocking"
+  ]
+}
